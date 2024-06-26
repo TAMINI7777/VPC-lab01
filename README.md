@@ -29,4 +29,31 @@ Faites ceci pour les 3 autres sous-reseaux
 > Pour continuer de créer d'autre sous-reseaux, cliquer sur **Ajouter un nouveau sous-réseau**
 ##   
 ![](https://github.com/TAMINI7777/VPC-lab01/blob/main/creer-sous-reseaux.png)
+![](https://github.com/TAMINI7777/VPC-lab01/blob/main/sous-reseau2.png)
+![](https://github.com/TAMINI7777/VPC-lab01/blob/main/sous-reseau3.png)
+![](https://github.com/TAMINI7777/VPC-lab01/blob/main/sous-reseau4.png)
+![](https://github.com/TAMINI7777/VPC-lab01/blob/main/subnets-creer.png)
 
+#### Autoriser l'attribution d'adresse automatique
+Cela va permettre à ce que chaque instance qui sera creer dans ces sous-réseaux d'avoir une adresse IP publique.
+* Selectionner un sous-reseau public puis cliquer sur **action**
+* Cliquer sur **Modifier les parametres du sous-reseaux**
+* Cocher **Activer l'attribution automatique d'une adresse IPv4 publique**
+![](https://github.com/TAMINI7777/VPC-lab01/blob/main/Autoriser%20l'attribution%20automatique00%20.png)
+![](https://github.com/TAMINI7777/VPC-lab01/blob/main/Autoriser%20l'attribution%20automatique%20.png)
+> [!IMPORTANT]
+> Repeter la même chose pour l'autre sous-réseau public
+
+### Etape 3: Creer la passerelle Internet
+Toujours sur l'onglet subnets à gauche cliquer sur: **Passerelle Internet**
+![](https://github.com/TAMINI7777/VPC-lab01/blob/main/pass-internet.png)
+![](https://github.com/TAMINI7777/VPC-lab01/blob/main/nom-IGW.png)
+
+#### Attacher la passerelle à notre VPC
+Après la creation de notre passerelle, nous devons attacher notre passerelle internet à notre VPC.
+ * Sur la page de notre passerelle créee cliquer sur **action**
+ * cliquer sur **Attacher au vpc**
+![](https://github.com/TAMINI7777/VPC-lab01/blob/main/pass-internet.png)
+![](https://github.com/TAMINI7777/VPC-lab01/blob/main/nom-IGW.png)
+![](https://github.com/TAMINI7777/VPC-lab01/blob/main/Attacher%20au%20vpc.png)
+ 
