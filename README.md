@@ -55,5 +55,5 @@ Après la creation de notre passerelle, nous devons attacher notre passerelle in
  * cliquer sur **Attacher au vpc**
 ![](https://github.com/TAMINI7777/VPC-lab01/blob/main/pass-internet.png)
 ![](https://github.com/TAMINI7777/VPC-lab01/blob/main/nom-IGW.png)
-![](https://github.com/TAMINI7777/VPC-lab01/blob/main/Attacher%20au%20vpc.png)
+![]()
  
